@@ -1,0 +1,35 @@
+.button_area {
+    margin-top: 10px;
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.button {
+    padding: 6px 26px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 1px white solid;
+
+    &.submit {
+        border: 1px solid green;
+    }
+
+    &.next {
+        border: 1px solid white;
+    }
+
+    &.clear {
+        border: 1px solid red;
+    }
+}

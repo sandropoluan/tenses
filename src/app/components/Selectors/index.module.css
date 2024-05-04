@@ -1,0 +1,23 @@
+.selectors {
+    margin-top: 10px;
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.tag {
+    padding: 4px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 1px white solid;
+}
