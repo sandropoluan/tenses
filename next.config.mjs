@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/tenses",
+    basePath: "",
     output: "export",  // <=== enables static exports,
     distDir: 'docs',
     reactStrictMode: true,
