@@ -2,7 +2,7 @@
 const nextConfig = {
     basePath: "/tenses",
     output: "export",  // <=== enables static exports,
-    distDir: 'docs',
+    distDir: 'out',
     reactStrictMode: true,
   };
   

@@ -13,6 +13,9 @@ const words: Word[] = [
   'Would',
   'Will',
   'Will/Shall',
+  'Would',
+  'Should',
+  'Would/Should',
   'be (Am/Is/Are)',
   'Was/Were',
   'Had',
@@ -25,25 +28,30 @@ const words: Word[] = [
   'V2',
   'V3',
   's/es',
-  'V-ing',
+  'Verb+ing',
   'Object',
 ]
 
 const allTenses: Record<string, Word[]>[] = [
   { 'Past Simple': ['Subject', 'V2'] },
   { 'Past Perfect': ['Subject', 'Had', 'V3'] },
-  { 'Past Continuous': ['Subject', 'Was/Were', 'V-ing'] },
-  { 'Past Perfect Continuous': ['Subject', 'Had', 'Been', 'V-ing'] },
+  { 'Past Continuous': ['Subject', 'Was/Were', 'Verb+ing'] },
+  { 'Past Perfect Continuous': ['Subject', 'Had', 'Been', 'Verb+ing'] },
 
   { 'Present Simple': ['Subject', 'V1', 's/es'] },
   { 'Present Perfect': ['Subject', 'Have/Has', 'V3'] },
-  { 'Present Continuous': ['Subject', 'be (Am/Is/Are)', 'V-ing'] },
-  { 'Present Perfect Continuous': ['Subject', 'Have/Has', 'Been', 'V-ing'] },
+  { 'Present Continuous': ['Subject', 'be (Am/Is/Are)', 'Verb+ing'] },
+  { 'Present Perfect Continuous': ['Subject', 'Have/Has', 'Been', 'Verb+ing'] },
 
   { 'Future Simple': ['Subject', 'Will/Shall', 'V1'] },
   { 'Future Perfect': ['Subject', 'Will', 'Have', 'V3'] },
-  { 'Future Continuous': ['Subject', 'Will', 'Be', 'V-ing'] },
-  { 'Future Perfect Continuous': ['Subject', 'Will', 'Have', 'Been', 'V-ing'] },
+  { 'Future Continuous': ['Subject', 'Will', 'Be', 'Verb+ing'] },
+  { 'Future Perfect Continuous': ['Subject', 'Will', 'Have', 'Been', 'Verb+ing'] },
+
+  { 'Past Future Simple': ['Subject', 'Would', 'V1'] },
+  { 'Past Future Perfect': ['Subject', 'Would/Should', 'Have', 'V3'] },
+  { 'Past Future Continuous': ['Subject', 'Would/Should', 'Be', 'Verb+ing'] },
+  { 'Past Future Perfect Continuous': ['Subject', 'Would', 'Have', 'Been', 'Verb+ing'] },
 ]
 
 export default function Home() {

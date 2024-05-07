@@ -11,13 +11,13 @@
 }
 
 .tag {
-    padding: 4px;
+    padding: 6px;
     background-color: black;
     border-radius: 5px;
     color: white;
     font-size: 14px;
     margin-right: 8px;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     cursor: pointer;
     border: 1px white solid;
 }

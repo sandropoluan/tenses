@@ -3,6 +3,9 @@ export type Word = 'Subject' |
     'Would' |
     'Will' |
     'Will/Shall' |
+    'Would' |
+    'Should' |
+    'Would/Should' |
     'be (Am/Is/Are)' |
     'Was/Were' |
     'Had' |
@@ -15,7 +18,7 @@ export type Word = 'Subject' |
     'V2' |
     'V3' |
     's/es' |
-    'V-ing' |
+    'Verb+ing' |
     'Object'
 
 export type Statuses = '' | 'correct' | 'fail';
