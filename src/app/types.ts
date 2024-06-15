@@ -1,5 +1,6 @@
 export type Word = 'Subject' |
     'Do/Does' |
+    'Did' |
     'Would' |
     'Will' |
     'Will/Shall' |
@@ -8,6 +9,7 @@ export type Word = 'Subject' |
     'Would/Should' |
     'be (Am/Is/Are)' |
     'Was/Were' |
+    'Not' |
     'Had' |
     'Has' |
     'Have' |
